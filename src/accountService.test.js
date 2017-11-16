@@ -15,7 +15,7 @@ describe('deposit', ()=>{
     const account  = new AccountService()
     account.deposit(1000)
 
-    expect(1000, account.get)
+    expect(1000)
 
   })
 })
